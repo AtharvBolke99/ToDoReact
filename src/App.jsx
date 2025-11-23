@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import TaskCard from "./TaskCard.jsx";
+import TaskCard from "./components/TaskCard.jsx";
 import toast, { Toaster } from "react-hot-toast";
-import noTaskImage from "./assets/noTask.jpg";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -76,5 +75,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
